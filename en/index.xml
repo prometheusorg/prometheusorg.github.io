@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LifeLine Health Apps</title>
+    <link>https://localhost/en/</link>
+    <description>Recent content on LifeLine Health Apps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Feb 2018 06:58:36 +0100</lastBuildDate>
+    
+	<atom:link href="https://localhost/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Natural Language Generation</title>
+      <link>https://localhost/en/natural-language-generation/nlg/</link>
+      <pubDate>Mon, 05 Feb 2018 06:58:36 +0100</pubDate>
+      
+      <guid>https://localhost/en/natural-language-generation/nlg/</guid>
+      <description>Natural language generation Table of content  Introduction Les objets  Le mot : NSPhraseMot La phrase de base : NSPhraseur La proposition et la phrase : NsProposition Le générateur : NSGenerateur  Génération de phrases  La veine grande saphène gauche est compressible La veine grande saphène gauche est partiellement compressible La veine grande saphène gauche est compressible. Elle a une perméabilité altérée La veine grande saphène gauche est compressible et elle a une perméabilité altérée Une endoprothèse aortique d&amp;rsquo;aspect normal est visualisée Plaque d&amp;rsquo;athérome responsable d&amp;rsquo;une sténose artérielle serrée au niveau de l&amp;rsquo;artère carotide interne droite   Introduction  Le module de synthèse de langage naturel met en œuvre plusieurs types d&amp;rsquo;objet afin de constituer un graphe de concept grammaticaux puis de les transformer en phrase.</description>
+    </item>
+    
+  </channel>
+</rss>

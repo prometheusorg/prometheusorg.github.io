@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://localhost/en/basics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://localhost/fr/basics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://localhost/en/basics/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://localhost/en/natural-language-generation/</loc>
+    <lastmod>2018-02-05T06:58:36+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://localhost/fr/natural-language-generation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://localhost/en/natural-language-generation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://localhost/en/natural-language-generation/nlg/</loc>
+    <lastmod>2018-02-05T06:58:36+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://localhost/fr/natural-language-generation/nlg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://localhost/en/natural-language-generation/nlg/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://localhost/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://localhost/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://localhost/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://localhost/en/</loc>
+    <lastmod>2018-02-05T06:58:36+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://localhost/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://localhost/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://localhost/en/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://localhost/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://localhost/en/tags/"
+                />
+  </url>
+  
+</urlset>

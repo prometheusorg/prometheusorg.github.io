@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="fr" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.35" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+
+    <title>Génération automatique de texte :: Apps santé Ligne de Vie</title>
+    
+    
+    <link href="/css/nucleus.css?1517882390" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1517882390" rel="stylesheet">
+    <link href="/css/hybrid.css?1517882390" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1517882390" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1517882390" rel="stylesheet">
+    <link href="/css/auto-complete.css?1517882390" rel="stylesheet">
+    <link href="/css/theme.css?1517882390" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1517882390" rel="stylesheet">
+    
+      <link href="/css/theme-red.css?1517882390" rel="stylesheet">
+    
+
+    <script src="/js/jquery-2.x.min.js?1517882390"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+        :not(pre) > code + span.copy-to-clipboard {
+            display: none;
+        }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/fr/natural-language-generation/nlg/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <!DOCTYPE html>
+<html>
+<body>
+<h3 style="background-color:silver;">LifeLine Apps</h3>
+<body>
+</html>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="Rechercher...">
+    <span data-search-clear=""><i class="fa fa-close"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1517882390"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1517882390"></script>
+<script type="text/javascript">
+    
+        var baseurl = "\/fr";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1517882390"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/fr/basics/" title="Démarrage" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/fr/basics/">
+          <b>1. </b>Démarrage
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/fr/natural-language-generation/" title="Génération automatique de texte" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/fr/natural-language-generation/">
+          <b>2. </b>Génération automatique de texte
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/fr/natural-language-generation/nlg/" title="Génération automatique de texte" class="dd-item active">
+        <a href="/fr/natural-language-generation/nlg/">
+        Génération automatique de texte
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+        <li>
+          <a class="padding">
+            <i class="fa fa-fw fa-language"></i>
+          <div class="select-style">
+            <select id="select-language" onchange="location = this.value;">
+          
+          
+          
+              
+              
+                  
+                    
+                    
+                      <option id="en" value="/en/natural-language-generation/nlg/">English</option>
+                    
+                  
+              
+                  
+              
+          
+              
+              
+                  
+              
+                  
+                    
+                    
+                      <option id="fr" value="/fr/natural-language-generation/nlg/" selected>Français</option>
+                    
+                  
+              
+          
+        </select>
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
+          <g>
+            <g id="arrow-drop-down">
+              <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+            </g>
+          </g>
+        </svg>
+        </div>
+        </a>
+        </li>
+       
+      
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fa fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/fr/'>Apps santé Ligne de Vie</a> > <a href='/fr/natural-language-generation/'>Génération automatique de texte</a> > Génération automatique de texte
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#génération-automatique-de-texte">Génération automatique de texte</a>
+<ul>
+<li><a href="#table-des-matières">Table des matières</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#les-objets">Les objets</a>
+<ul>
+<li><a href="#NSPhraseMot">Le mot <code>NSPhraseMot</code></a></li>
+<li><a href="#NSPhraseur">La phrase de base <code>NSPhraseur</code></a></li>
+<li><a href="#NSProposition">La proposition et la phrase <code>NsProposition</code></a></li>
+<li><a href="#NSGenerateur">Le générateur <code>NSGenerateur</code></a></li>
+</ul></li>
+<li><a href="#génération-de-phrases">Génération de phrases</a>
+<ul>
+<li><a href="#la-veine-grande-saphène-gauche-est-compressible">La veine grande saphène gauche est compressible.</a></li>
+<li><a href="#la-veine-grande-saphène-gauche-est-partiellement-compressible">La veine grande saphène gauche est partiellement compressible.</a></li>
+<li><a href="#la-veine-grande-saphène-gauche-est-compressible-elle-a-une-perméabilité-altérée">La veine grande saphène gauche est compressible. Elle a une perméabilité altérée</a></li>
+<li><a href="#la-veine-grande-saphène-gauche-est-compressible-et-elle-a-une-perméabilité-altérée">La veine grande saphène gauche est compressible et elle a une perméabilité altérée</a></li>
+<li><a href="#une-endoprothèse-aortique-d-aspect-normal-est-visualisée">Une endoprothèse aortique d&rsquo;aspect normal est visualisée</a></li>
+<li><a href="#plaque-d-athérome-responsable-d-une-sténose-artérielle-serrée-au-niveau-de-l-artère-carotide-interne-droite">Plaque d&rsquo;athérome responsable d&rsquo;une sténose artérielle serrée au niveau de l&rsquo;artère carotide interne droite.</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Génération automatique de texte</h1>
+          
+
+        
+
+
+
+
+<h3 id="génération-automatique-de-texte">Génération automatique de texte</h3>
+
+<h4 id="table-des-matières">Table des matières</h4>
+
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#les-objets">Les objets</a>
+
+<ol>
+<li><a href="#NSPhraseMot">Le mot : <code>NSPhraseMot</code></a></li>
+<li><a href="#NSPhraseur">La phrase de base : <code>NSPhraseur</code></a></li>
+<li><a href="#NSProposition">La proposition et la phrase : <code>NsProposition</code></a></li>
+<li><a href="#NSGenerateur">Le générateur : <code>NSGenerateur</code></a></li>
+</ol></li>
+<li><a href="">Génération de phrases</a>
+
+<ol>
+<li>La veine grande saphène gauche est compressible</li>
+<li>La veine grande saphène gauche est partiellement compressible</li>
+<li>La veine grande saphène gauche est compressible. Elle a une perméabilité altérée</li>
+<li>La veine grande saphène gauche est compressible et elle a une perméabilité altérée</li>
+<li>Une endoprothèse aortique d&rsquo;aspect normal est visualisée</li>
+<li>Plaque d&rsquo;athérome responsable d&rsquo;une sténose artérielle serrée au niveau de l&rsquo;artère carotide interne
+droite</li>
+</ol></li>
+</ol>
+
+<h4 id="introduction">Introduction</h4>
+
+<p>Le module de synthèse de langage naturel met en œuvre plusieurs types d&rsquo;objet afin de constituer un graphe de concept grammaticaux puis de les transformer en phrase. Nous allons d&rsquo;abord énumérer et décrire les objets à l’œuvre, puis donner des exemples de phrases en indiquant comment se mettent en place les objets qui permettent de les générer.</p>
+
+<h4 id="les-objets">Les objets</h4>
+
+<h5 id="NSPhraseMot">Le mot <code>NSPhraseMot</code></h5>
+
+<p>L&rsquo;objet de base, <code>NSPhraseMot</code>, représente un mot du Lexique, éventuellement complété de ses compléments (épithètes, compléments du nom, etc).</p>
+
+<h5 id="NSPhraseur">La phrase de base <code>NSPhraseur</code></h5>
+
+<p>La phrase de base est de type « sujet, verbe, compléments » ; ce sont les informations contenues dans un objet <code>NSPhraseur</code>.</p>
+
+<h5 id="NSProposition">La proposition et la phrase <code>NsProposition</code></h5>
+
+<p>Les propositions sont de deux types : principale ou secondaire. Il existe de nombreux types de secondaires, les complétives, les circonstancielles, les relatives (que nous traitons en tant que complément du nom) et un type particulier local, la phrase située à droite d&rsquo;un &lsquo; :&lsquo;.
+Dans le cas simple usuel, où il n&rsquo;existe qu&rsquo;une unique principale, la <code>NsProposition</code> contient un unique <code>NSPhraseur</code>. Dans les cas où une même phrase contient plusieurs propositions, que ce soit plusieurs principales (comme « Il mange une pomme et boit de l&rsquo;eau ») ou une principale et sa/ses secondaire(s), la <code>NsProposition</code> contient elle même une array de <code>NsProposition</code> (<code>NSPropositionArray</code>).</p>
+
+<h5 id="NSGenerateur">Le générateur <code>NSGenerateur</code></h5>
+
+<p>Le générateur prend un objet <code>NsProposition</code> et le transforme en une phrase en langage naturel. <code>NSGenerateur</code> est un objet virtuel dont dérivent des générateurs spécialisés dans un langage donné, par exemple <code>NSGenerateurFr</code> pour le français et <code>NSGenerateurEn</code> pour l&rsquo;anglais.</p>
+
+<h4 id="génération-de-phrases">Génération de phrases</h4>
+
+<p>Ce document indique la phrase type à générer et l&rsquo;algorithme d&rsquo;exemple correspondant</p>
+
+<p>On part du principe que les objets ont été initialisés de la façon suivante:</p>
+
+<pre><code class="language-c++">_pPhraseur = new NSPhraseur(pContexte);
+_pPropos = new NsProposition(pContexte, &amp;_pPhraseur, NsProposition::notSetType, NsProposition::notSetConjonct);
+_pGenerateur = new NSGenerateurFr(pContexte, _pPropos, _sLang);
+</code></pre>
+
+<p>Le générateur de langage est donc lié à une proposition simple, elle même liée à un objet de description de phrase. La <code>NsProposition</code> est construite à partir d&rsquo;un pointeur sur <code>_pPhraseur</code> qui est, lui même un pointeur. Le comportement par défaut de ce constructeur est de signaler que <code>_pPhraseur</code> doit être détruit en même temps que la <code>NsProposition</code>.</p>
+
+<h5 id="la-veine-grande-saphène-gauche-est-compressible">La veine grande saphène gauche est compressible.</h5>
+
+<p>Phrase simple, sujet et attribut du sujet. Le verbe «être» est automatiquement sélectionné.</p>
+
+<pre><code class="language-c++">_pPhraseur-&gt;initialise();
+_pPhraseur-&gt;addSubject(string(&quot;AGDGS1&quot;));
+_pPhraseur-&gt;AttSujet.push_back(new NSPhraseMot(string(&quot;QCMPR2&quot;)));
+_pGenerateur-&gt;genereProposition(dcPhrase);
+_pGenerateur-&gt;termineProposition();
+string sSentence = _pGenerateur-&gt;getPropositionPhrase();
+</code></pre>
+
+<p>Attention : le sujet doit être un nom et l&rsquo;attribut un adjectif, sinon la phrase ne sera pas générée. Si on ajoute plusieurs attribut, on obtient une phrase de type «est compressible, échogène et continente».</p>
+
+<h5 id="la-veine-grande-saphène-gauche-est-partiellement-compressible">La veine grande saphène gauche est partiellement compressible.</h5>
+
+<p>L&rsquo;attribut du sujet reçoit un adverbe.</p>
+
+<pre><code class="language-c++">_pPhraseur-&gt;initialise();
+_pPhraseur-&gt;addSubject(string(&quot;AGDGS1&quot;));
+NSPhraseMot *pAttribut = new NSPhraseMot(string(&quot;QCMPR2&quot;));
+NSPhraseur* pAttrPhr = pAttribut-&gt;getOrCreateFirstComplementPhr();
+pAttrPhr-&gt;adverbe.push_back(new NSPhraseMot(pContexte, string(&quot;1PART2&quot;)));
+_pPhraseur-&gt;AttSujet.push_back(pAttribut);
+_pGenerateur-&gt;genereProposition(dcPhrase);
+_pGenerateur-&gt;termineProposition();
+string sSentence = _pGenerateur-&gt;getPropositionPhrase();
+</code></pre>
+
+<p>Attention : le terme du lexique désigné comme adverbe doit être&hellip; un adverbe.</p>
+
+<h5 id="la-veine-grande-saphène-gauche-est-compressible-elle-a-une-perméabilité-altérée">La veine grande saphène gauche est compressible. Elle a une perméabilité altérée</h5>
+
+<p>Le sujet de la seconde phrase n&rsquo;est pas répété et remplacé par un pronom.</p>
+
+<pre><code class="language-c++">_pPhraseur-&gt;initialise();
+_pPhraseur-&gt;addSubject(string(&quot;AGDGS1&quot;));
+_pPhraseur-&gt;AttSujet.push_back(new NSPhraseMot(string(&quot;QCMPR2&quot;)));
+_pGenerateur-&gt;genereProposition(dcPhrase);
+_pGenerateur-&gt;termineProposition();
+string sSentence = _pGenerateur-&gt;getPropositionPhrase() ;
+_pPhraseur-&gt;initialise();
+_pPhraseur-&gt;addSubject(string(&quot;AGDGS1&quot;)) ;
+_pPhraseur-&gt;iTypeSujet = NSPhraseur::sujetNoRepeat;
+_pPhraseur-&gt;addVerb(string(&quot;4AVOI1&quot;));
+NSPhraseMot Cod(string(&quot;QPERM1&quot;));
+NSPhraseur* pAttrPhr = Cod.getOrCreateFirstComplementPhr();
+if (pCplmt)
+  pCplmt-&gt;adjEpithete.push_back(new NSPhraseMot(string(&quot;SALTD2&quot;), pContexte));
+_pPhraseur-&gt;addCOD(&amp;Cod);
+_pGenerateur-&gt;genereProposition(dcPhrase) ;
+_pGenerateur-&gt;termineProposition();
+sSentence += string(&quot; &quot;) + _pGenerateur-&gt;getPropositionPhrase();
+</code></pre>
+
+<h5 id="la-veine-grande-saphène-gauche-est-compressible-et-elle-a-une-perméabilité-altérée">La veine grande saphène gauche est compressible et elle a une perméabilité altérée</h5>
+
+<p>Phrase similaire à la phrase précédente, mais sous forme de deux propositions principales au sein de la même phrase.</p>
+
+<pre><code class="language-c++">NsProposition metaProposition(pContexte, true);
+_pGenerateur-&gt;setProposition(&amp;metaProposition);
+_pPhraseur-&gt;initialise();
+_pPhraseur-&gt;addSubject(string(&quot;AGDGS1&quot;));
+_pPhraseur-&gt;AttSujet.push_back(new NSPhraseMot(string(&quot;QCMPR2&quot;)));
+metaProposition.addPropositionToArray(_pPhraseur, NsProposition::principale,
+NsProposition::notSetConjonct);
+_pPhraseur-&gt;initialise();
+_pPhraseur-&gt;addSubject(string(&quot;AGDGS1&quot;));
+_pPhraseur-&gt;addVerb(string(&quot;4AVOI1&quot;));
+NSPhraseMot Cod(string(&quot;QPERM1&quot;));
+NSPhraseur* pAttrPhr = Cod.getOrCreateFirstComplementPhr();
+if (pCplmt)
+  pCplmt-&gt;adjEpithete.push_back(new NSPhraseMot(string(&quot;SALTD2&quot;), pContexte));
+_pPhraseur-&gt;addCOD(&amp;Cod);
+metaProposition.addPropositionToArray(_pPhraseur, NsProposition::principale, NsProposition::notSetConjonct);
+_pGenerateur-&gt;genereProposition(dcPhrase);
+_pGenerateur-&gt;termineProposition();
+string sSentence = _pGenerateur-&gt;getPropositionPhrase();
+_pGenerateur-&gt;setProposition(_pPropos);
+</code></pre>
+
+<p>Dans cet exemple, on commence par remplacer, au sein du générateur, la proposition simple (qui ne contient qu&rsquo;un objet NSPhraseur) par une proposition multiple. La dernière ligne de l&rsquo;exemple remet en place la proposition simple par défaut.
+Après que le NSPhraseur qui correspond à une principale a été initialisé, il est ajouté à la proposition multiple par la méthode addPropositionToArray.</p>
+
+<h5 id="une-endoprothèse-aortique-d-aspect-normal-est-visualisée">Une endoprothèse aortique d&rsquo;aspect normal est visualisée</h5>
+
+<p>Dans cet exemple, «d&rsquo;aspect normal» est une contraction de la subordonnée relative « dont l&rsquo;aspect est normal ». On construit donc la subordonnée complète (sujet, verbe être, attribut du sujet), puis on précise que cette subordonnée doit être générée en « mode tiret »</p>
+
+<pre><code class="language-c++">_pPhraseur-&gt;initialise();
+NSPhraseMot Endoprothese(pContexte, string(&quot;AENAO1&quot;));
+Endoprothese.setArticle(NSPhraseMot::articleIndefini);
+NSPhraseur* pPhraseur = new NSPhraseur(pContexte) ;
+pPhraseur-&gt;addSubject(string(&quot;0ASPV1&quot;));
+pPhraseur-&gt;addVerb(string(&quot;4ETRE1&quot;));
+pPhraseur-&gt;addAttSujet(&amp;_prothAspect);
+pPhraseur-&gt;_iRelativeType = dcTiret;
+Endoprothese.addComplementPhr(pPhraseur, phraseRelative);
+_pPhraseur-&gt;addCOD(&amp;Endoprothese);
+_pPhraseur-&gt;addVerb(string(&quot;4VISU1&quot;));
+_pPhraseur-&gt;iForme = NSPhraseur::formePassive;
+_pGenerateur-&gt;genereProposition(dcPhrase);
+_pGenerateur-&gt;termineProposition();
+</code></pre>
+
+<h5 id="plaque-d-athérome-responsable-d-une-sténose-artérielle-serrée-au-niveau-de-l-artère-carotide-interne-droite">Plaque d&rsquo;athérome responsable d&rsquo;une sténose artérielle serrée au niveau de l&rsquo;artère carotide interne droite.</h5>
+
+<p>La phrase est une « phrase à tiret ». De telles phrases doivent être construites comme une phrase à la forme passive (« Il existe une plaque&hellip; ») qui verra son sujet et son verbe (« Il existe ») supprimés par la précision du « mode tiret » au moment de la génération en langage naturel:
+<code>_pGenerateur-&gt;genereProposition(dcTiret);</code></p>
+
+<p>On commence par définir la localisation, avec pour particularité de préciser la préposition «au niveau de»:</p>
+
+<pre><code class="language-c++">_pPhraseur-&gt;initialise();
+NSPhraseMot localisation(pContexte, string(&quot;ADT231&quot;));
+localisation.setArticle(NSPhraseMot::articleDefini);
+_pPhraseur-&gt;addCCLieu(&amp;localisation);
+_pPhraseur-&gt;PrepositionLieu.setLexique(string(&quot;1AUNI1&quot;));
+</code></pre>
+
+<p>On inscrit ensuite le COD (« plaque d&rsquo;athérome »):</p>
+
+<pre><code class="language-c++">NSPhraseMot COD(pContexte, string(&quot;SPLAQ1&quot;));
+COD.initComplement();
+</code></pre>
+
+<p>Puis on construit une subordonnée relative (« qui est responsable d&rsquo;une sténose&hellip; ») :</p>
+
+<pre><code class="language-c++">NSPhraseur* pPhraseur = new NSPhraseur(pContexte) ;
+pPhraseur-&gt;iPhraseType = phraseRelative ;
+NSPhraseMot verbe(pContexte, string(&quot;4ETRE1&quot;)) ;
+pPhraseur-&gt;addVerb(&amp;verbe) ;
+NSPhraseMot attribut(pContexte, string(&quot;1RESP1&quot;)) ;
+NSPhraseur* pCplt = attribut.getOrCreateFirstComplementPhr() ;
+if (pCplt) {
+  // Il existe &quot;une&quot; sténose
+  NSPhraseMot stenose(pContexte, string(&quot;PSTA01&quot;));
+  stenose.setArticle(NSPhraseMot::articleIndefini);
+  pCplt-&gt;addSubject(&amp;stenose);
+}
+pPhraseur-&gt;addAttSujet(&amp;attribut);
+COD.addComplementPhr(pPhraseur, phraseRelative);
+</code></pre>
+
+<p>La construction de la phrase « résume » le récit suivant : « il existe une plaque, qui est responsable que une sténose existe ». C&rsquo;est ce qui explique que « sténose » soit en position de sujet du complément du nom « responsable ».
+Il ne reste plus qu&rsquo;a finaliser, en précisant bien qu&rsquo;on veut une phrase « à tiret » :</p>
+
+<pre><code class="language-c++">_pPhraseur-&gt;addCOD(&amp;Cod);
+_pGenerateur-&gt;genereProposition(dcTiret);
+_pGenerateur-&gt;termineProposition();
+string sSentence = _pGenerateur-&gt;getPropositionPhrase();
+</code></pre>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="/fr/natural-language-generation/" title="Génération automatique de texte"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="/fr/basics/" title="Démarrage" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1517882390"></script>
+    <script src="/js/perfect-scrollbar.min.js?1517882390"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1517882390"></script>
+    <script src="/js/jquery.sticky.js?1517882390"></script>
+    <script src="/js/featherlight.min.js?1517882390"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1517882390"></script>
+    <script src="/js/highlight.pack.js?1517882390"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1517882390"></script>
+    <script src="/js/learn.js?1517882390"></script>
+    <script src="/js/hugo-learn.js?1517882390"></script>
+
+    <link href="/mermaid/mermaid.css?1517882390" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1517882390"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+
