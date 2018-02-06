@@ -3,92 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://localhost/fr/basics/</loc>
+    <loc>https://prometheusorg.github.io/fr/basics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/en/basics/"
+                href="https://prometheusorg.github.io/en/basics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/basics/"
+                href="https://prometheusorg.github.io/fr/basics/"
                 />
   </url>
   
   <url>
-    <loc>https://localhost/fr/natural-language-generation/</loc>
+    <loc>https://prometheusorg.github.io/fr/natural-language-generation/</loc>
     <lastmod>2018-02-05T06:58:36+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/en/natural-language-generation/"
+                href="https://prometheusorg.github.io/en/natural-language-generation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/natural-language-generation/"
+                href="https://prometheusorg.github.io/fr/natural-language-generation/"
                 />
   </url>
   
   <url>
-    <loc>https://localhost/fr/natural-language-generation/nlg/</loc>
+    <loc>https://prometheusorg.github.io/fr/natural-language-generation/nlg/</loc>
     <lastmod>2018-02-05T06:58:36+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/en/natural-language-generation/nlg/"
+                href="https://prometheusorg.github.io/en/natural-language-generation/nlg/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/natural-language-generation/nlg/"
+                href="https://prometheusorg.github.io/fr/natural-language-generation/nlg/"
                 />
   </url>
   
   <url>
-    <loc>https://localhost/fr/</loc>
+    <loc>https://prometheusorg.github.io/fr/</loc>
     <lastmod>2018-02-05T06:58:36+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/en/"
+                href="https://prometheusorg.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/"
+                href="https://prometheusorg.github.io/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://localhost/fr/categories/</loc>
+    <loc>https://prometheusorg.github.io/fr/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/en/categories/"
+                href="https://prometheusorg.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/categories/"
+                href="https://prometheusorg.github.io/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://localhost/fr/tags/</loc>
+    <loc>https://prometheusorg.github.io/fr/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/en/tags/"
+                href="https://prometheusorg.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/tags/"
+                href="https://prometheusorg.github.io/fr/tags/"
                 />
   </url>
   
